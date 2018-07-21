@@ -1,0 +1,32 @@
+<html>
+<title>Edit An Event</title>
+<head>
+
+        <link rel="stylesheet" href="{{asset('css/mystyle.css')}}">
+</head>
+<body>
+
+<customform>
+<h1>Edit Event Form</h1>
+<form class="blockstyle" action="/43a7b9e3886a3312/editEvent" method="get">
+<p>id: {{data.id}}</p>
+<input type="number" name="id" value="{{data.id}}" style="display:none">
+<input type="text" name="name" value="{{data.name}}">
+<div class="date"><span>start date : </span><input type="date" name="startdate"></div>
+<div class="date"><span>end date :&nbsp; </span><input type="date" name="enddate"></div>
+<input type="text" name="image" value="{{data.image}}">
+<input type="number" name="capacity" value="{{data.capacity}}">
+<input type="text" name="email" value="{{data.email}}">
+<input type="text" name="phonenumber" value="{{data.phonenumber}}">
+
+<input type="text" name="url" value="{{data.url}}">
+<input type="text" name="eventtype" value="{{data.type}}"> 
+
+<input type="text" name="address" class="description" value="{{data.address}}">
+<input class="description" type="text" name="description" value="{{data.description}}">
+<button type="submit">save changes</button>
+</form>
+</customform>
+
+</body>
+</html>

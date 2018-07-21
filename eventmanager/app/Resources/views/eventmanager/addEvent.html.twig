@@ -1,0 +1,30 @@
+<html>
+<title>Add An Event</title>
+<head>
+
+        <link rel="stylesheet" href="{{asset('css/mystyle.css')}}">
+</head>
+<body>
+
+<customform>
+<h1>Add Event Form</h1>
+<form class="blockstyle" action="/43a7b9e3886a3312/addEvent" method="get">
+<input type="text" name="name" placeholder="Event Name">
+<div class="date"><span>start date : </span><input type="date" name="startdate"></div>
+<div class="date"><span>end date :&nbsp; </span><input type="date" name="enddate"></div>
+<input type="text" name="image" placeholder="image URL">
+<input type="number" name="capacity" placeholder="capacity">
+<input type="text" name="email" placeholder="e-mail">
+<input type="text" name="phonenumber" placeholder="phone number">
+
+<input type="text" name="url" placeholder="Event Url">
+<input type="text" name="eventtype" placeholder="Event Type"> 
+
+<input type="text" name="address" class="description" placeholder="Event Address">
+<input class="description" type="text" name="description" placeholder="description">
+<button type="submit">add Event</button>
+</form>
+</customform>
+
+</body>
+</html>

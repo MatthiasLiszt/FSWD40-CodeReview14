@@ -1,0 +1,34 @@
+var footerAdd=`<table>
+<th>Highlights</th>
+<tr><td>Giant Ferris Wheel</tr></td>
+<tr><td>Open-air cinema</tr></td>
+<tr><td>Natural bathing spots in Vienna</tr></td>
+</table>
+
+<table>
+<th>Social Media</th>
+<tr><td>Facebook</tr></td>
+<tr><td>YouTube</tr></td>
+<tr><td>Instagram</tr></td>
+<tr><td>Twitter</tr></td>
+</table>
+
+<table>
+<th>Helpful travel tips</th>
+<tr><td>Frequently asked questions</tr></td>
+<tr><td>Getting to Vienna</tr></td>
+<tr><td>Public transport</tr></td>
+<tr><td>Booking and information service</tr></td>
+</table>
+
+<table>
+<th>For the tourism industry</th>
+<tr><td>B2B Website</tr></td>
+<tr><td>Vienna Experts Club</tr></td>
+<tr><td>Destination Guide</tr></td>
+</table>
+
+<table>
+<td><tr><img src="../img/footerpromotion.jpeg"</td></tr>
+</table>
+`;

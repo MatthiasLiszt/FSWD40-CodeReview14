@@ -1,0 +1,112 @@
+nav {
+ height: 3em;
+ width: 100vw;
+ background-color: red;
+ color: white;
+}
+
+header{
+ height: 26vh;
+ width: 100vw;
+}
+
+header img{
+ width: 100%;
+ height: 100%;
+}
+
+footer {
+ background-color: red;
+ //height: 12em;
+ width: 100vw;
+ color: white;
+ display: flex;
+ flex-direction: row;
+ padding: 1em;
+ font-family: "sans-serif";
+}
+
+footer table{
+ margin-left: 2em;
+}
+
+footer th{
+ font-weight: bold;
+ padding-bottom: 1.5em;
+ text-align: left;
+}
+
+footer img{
+ margin-left: 2em;
+}
+
+customform{
+ display: block;
+ font-family: "sans-serif";
+ padding: 3em;
+}
+
+customform form,input,button{
+ display: block;
+ margin-top: 0.5em;
+}
+
+customform input{
+ width: 25vw;
+}
+
+customform h1{
+ color: green;
+}
+
+.date{
+ display: block;
+ width: 25vw;
+}
+
+.date input{
+ display: inline;
+ width: 14em;
+}
+
+.date span{
+ width: 8em;
+}
+
+.description{
+ height: 7em;
+}
+
+main{
+ padding-left: 3vw;
+ width: 70vw;
+ display: flex;
+ flex-wrap: wrap; 
+}
+
+.event{
+ width: 50%;
+}
+
+.event img{
+ width: 91%;
+}
+
+.event a{
+ text-decoration: none;
+}
+
+.event a h3{
+ color: red;
+}
+
+.event a p{
+ color: black;
+}
+
+.eventview td{
+ padding-left: 2em;
+}
+
+
+
